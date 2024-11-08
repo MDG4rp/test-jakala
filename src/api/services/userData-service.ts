@@ -5,7 +5,7 @@ const MOCK_USER_DATA: UserData = {
     name: "Mario Rossi",
     email: "mario.rossi@mario.rossi"
 };
-
+// in caso di backend sostituire cn una chiamata get
 export const getUserData = async (token: string) => {
     await new Promise((resolve) => setTimeout(resolve, 500));
 
